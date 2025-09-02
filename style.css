@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .ktp {
+    width: 900px;
+    height: 560px;
+    background-image: url(img/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+    color: #000;
+  }
+  .header {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .header .prov {
+    font-size: 28px;
+  }
+  .header .kab {
+    font-size: 22px;
+  }
+  .content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nik {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  .data table {
+    font-size: 18px;
+    border-collapse: collapse;
+  }
+  .data td {
+    padding: 2px 6px;
+    vertical-align: top;
+  }
+  .label {
+    width: 200px;   /* lebar tetap untuk label */
+    font-weight: bold;
+  }
+  .colon {
+    width: 20px;    /* lebar tetap titik dua supaya sejajar */
+    text-align: right;
+  }
+  .value {
+    width: 400px;
+  }
+  .indent td {
+    padding-left: 40px;
+  }
+  .photo {
+    width: 260px;
+    height: 320px;
+    background: #ddd;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .ttd {
+    text-align: center;
+    font-weight: bold;
+  }
